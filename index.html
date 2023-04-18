@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>To do list</title>
+</head>
+
+<body>
+  <div class="l_wrapper">
+    <header class="header">
+      <h1>✨ To do list ✨</h1>
+    </header>
+
+    <section>
+      <form class="add" action="/index.html" method="post">
+        <input class="todo-input" type="text" placeholder="할 일 추가하기" name="add-todo">
+        <button class="btn-add" type="submit">+Add</button>
+      </form>
+    </section>
+
+    <section class="todolist">
+      <ul>
+        <!-- <li>
+          <div class="todo-content">
+            <input type="checkbox" class="ck-box">
+            </div>
+          <button class="btn-delete" type="button">ㅡ</button>
+        </li> -->
+      </ul>
+    </section>
+    <button class="clear" type="button">Clear</button>
+  </div>
+
+  <script src="/main.js"></script>
+</body>
+
+</html>

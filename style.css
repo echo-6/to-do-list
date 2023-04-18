@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "LINESeedKR-Bd";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LINESeedKR-Rg";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Rg.woff2")
+    format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+body,
+h1,
+ul,
+li,
+section,
+header {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(16, 12, 53);
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+.l_wrapper {
+  width: 500px;
+  margin: 50px auto auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+/* 헤더 */
+.header {
+  background: rgb(252, 156, 199);
+  border-radius: 15px;
+  margin-bottom: 15px;
+  height: 55px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: LINESeedKR-Bd;
+  padding: 10px 0;
+  font-size: 25px;
+}
+
+/* add */
+.add {
+  display: flex;
+  justify-content: space-between;
+  align-item: center;
+  margin-bottom: 15px;
+  height: 55px;
+  gap: 7px;
+}
+
+.todo-input {
+  flex-grow: 1;
+  background-color: rgb(255, 255, 255, 0.6);
+  padding: 15px 15px 10px 15px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  height: 100%;
+  border-bottom: 5px solid transparent;
+}
+
+.todo-input:hover,
+.todo-input:focus {
+  background-color: white;
+}
+
+.btn-add {
+  background-color: #89489b;
+  cursor: pointer;
+  color: white;
+  font-family: LINESeedKR-Bd;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 20px;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+/* 메인 */
+.todolist {
+  background-color: white;
+  border-radius: 15px;
+  color: black;
+}
+
+ul {
+  padding: 30px 30px 10px 30px;
+  margin-bottom: 15px;
+}
+
+li {
+  border-bottom: 1px solid rgb(202, 202, 202);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-family: LINESeedKR-Rg;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-content {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.ck-box {
+  vertical-align: middle;
+  margin: 0 10px 0 0;
+}
+
+.delete {
+  background-color: #89489b;
+  border-radius: 15px;
+  cursor: pointer;
+  color: white;
+  font-family: LINESeedKR-Bd;
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.clear {
+  background-color: #89489b;
+  border-radius: 15px;
+  cursor: pointer;
+  color: white;
+  font-family: LINESeedKR-Bd;
+  padding: 12px 10px;
+  border-radius: 15px;
+  font-size: 20px;
+  float: right;
+}
